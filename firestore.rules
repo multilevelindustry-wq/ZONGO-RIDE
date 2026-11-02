@@ -1,0 +1,47 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function verified() { return signedIn() && request.auth.token.email_verified == true; }
+    function isAdmin() { return signedIn() && exists(/databases/$(database)/documents/admins/$(request.auth.uid)) && get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.role == 'admin'; }
+    function isPassenger(uid) { return verified() && request.auth.uid == uid && exists(/databases/$(database)/documents/users/$(uid)) && get(/databases/$(database)/documents/users/$(uid)).data.role == 'passenger' && get(/databases/$(database)/documents/users/$(uid)).data.get('moderationStatus', 'normal') != 'suspended' && get(/databases/$(database)/documents/users/$(uid)).data.get('moderationStatus', 'normal') != 'pending_review'; }
+    function isDriver(uid) { return verified() && request.auth.uid == uid && exists(/databases/$(database)/documents/drivers/$(uid)) && get(/databases/$(database)/documents/drivers/$(uid)).data.get('moderationStatus', 'normal') != 'suspended' && get(/databases/$(database)/documents/drivers/$(uid)).data.get('moderationStatus', 'normal') != 'pending_review'; }
+
+    match /admins/{uid} {
+      allow read: if signedIn() && request.auth.uid == uid || isAdmin();
+      allow write: if false;
+    }
+    match /users/{uid} {
+      allow create: if signedIn() && request.auth.uid == uid && request.resource.data.uid == uid && request.resource.data.role == 'passenger';
+      allow read: if signedIn() && request.auth.uid == uid || isAdmin();
+      allow update: if isAdmin() || (signedIn() && request.auth.uid == uid && request.resource.data.uid == resource.data.uid && request.resource.data.role == 'passenger' && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name','phone','email','country','area','photo','correctionMessage','correctionSubmittedAt','correctionStatus','updatedAt']));
+      allow delete: if isAdmin();
+    }
+    match /driverPrivate/{uid} {
+      allow read: if signedIn() && request.auth.uid == uid || isAdmin();
+      allow create, update: if isAdmin() || (signedIn() && request.auth.uid == uid);
+      allow delete: if isAdmin();
+    }
+    match /drivers/{uid} {
+      allow read: if true;
+      allow create: if isAdmin() || (signedIn() && request.auth.uid == uid && request.resource.data.uid == uid && request.resource.data.role == 'driver');
+      allow update: if isAdmin() || (signedIn() && request.auth.uid == uid && request.resource.data.uid == resource.data.uid && request.resource.data.role == 'driver' && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name','phone','email','country','area','photo','online','updatedAt','createdAt','registrationStage','licenceNumber','licenceCountry','licenceExpiry','licenceDocumentUrl','vehicleType','vehicleMake','vehicleYear','vehicleColor','plate','seats','vehiclePhoto','vehicleNotes','routes','stageComplete','verificationStatus','correctionMessage','correctionSubmittedAt','correctionStatus'])) ;
+      allow delete: if isAdmin();
+    }
+    match /adminNotifications/{notificationId} {
+      allow read: if isAdmin();
+      allow create, update: if isAdmin() || (signedIn() && request.resource.data.uid == request.auth.uid);
+      allow delete: if isAdmin();
+    }
+    match /bookings/{bookingId} {
+      allow create: if isPassenger(request.auth.uid) && request.resource.data.passengerId == request.auth.uid && exists(/databases/$(database)/documents/drivers/$(request.resource.data.driverId)) && get(/databases/$(database)/documents/drivers/$(request.resource.data.driverId)).data.get('moderationStatus', 'normal') != 'suspended' && get(/databases/$(database)/documents/drivers/$(request.resource.data.driverId)).data.get('moderationStatus', 'normal') != 'pending_review';
+      allow read: if verified() && (resource.data.passengerId == request.auth.uid || (resource.data.driverId == request.auth.uid && isDriver(request.auth.uid)) || isAdmin());
+      allow update: if isAdmin() || (verified() && (
+        (resource.data.passengerId == request.auth.uid && resource.data.status in ['pending','accepted'] && request.resource.data.status == 'cancelled' && request.resource.data.cancellationReason is string && request.resource.data.cancellationReason.size() >= 3 && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','updatedAt','cancellationReason','cancelledBy']) && isPassenger(request.auth.uid))
+        ||
+        (resource.data.driverId == request.auth.uid && resource.data.status == 'pending' && request.resource.data.status in ['accepted','declined'] && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','updatedAt']) && isDriver(request.auth.uid))
+      ));
+      allow delete: if isAdmin();
+    }
+  }
+}
