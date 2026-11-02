@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102a43">
+<title>RideConnect | Find a ride near you</title>
+<meta name="description" content="Find online drivers, compare route prices and request a ride in your area.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+<header class="topbar">
+<a class="brand" href="index.html"><span class="brand-mark">R</span><span>Ride<span class="brand-accent">Connect</span><small>Local rides. Global reach.</small></span></a>
+<nav><a class="active" href="index.html">Find a ride</a><a href="driver.html">Become a driver</a><a href="bookings.html">My bookings</a><a href="login.html" class="nav-login">Log in</a></nav>
+</header>
+<main>
+<section class="hero">
+<div class="hero-copy"><span class="eyebrow">AFRICA · ASIA · EUROPE · AMERICAS</span><h1>Your next ride<br><em>starts here.</em></h1><p>Find drivers who are online in your area. Compare their routes and prices before you request a ride. No in-app payments.</p>
+<div class="hero-points"><span>✓ Prices shown upfront</span><span>✓ Choose your driver</span><span>✓ No payment processing</span></div><a id="rotatingRegisterBtn" class="btn btn-primary" href="driver.html" style="margin-top:24px">Register as a driver →</a><p class="form-note">Registration options change automatically.</p></div>
+<div class="search-card"><div class="card-heading"><div><span class="eyebrow">PASSENGER SEARCH</span><h2>Where are you going?</h2></div><span class="live-pill"><i></i> Online drivers</span></div>
+<form id="rideSearchForm">
+<div class="field"><label for="country">Country / region</label><input id="country" name="country" placeholder="e.g. Nigeria, India, France" required></div>
+<div class="field-row"><div class="field"><label for="area">City or area</label><input id="area" name="area" placeholder="City / neighbourhood" required></div><div class="field"><label for="pickup">Pickup location</label><input id="pickup" name="pickup" placeholder="Where from?" required></div></div>
+<div class="field"><label for="destination">Destination</label><input id="destination" name="destination" placeholder="Where to?" required></div>
+<div class="field-row"><div class="field"><label for="rideDate">Date</label><input id="rideDate" name="date" type="date" required></div><div class="field"><label for="rideTime">Pickup time</label><input id="rideTime" name="time" type="time" required></div></div>
+<button class="btn btn-primary btn-block" type="submit">Find online drivers <span>→</span></button><p class="form-note">You will see each driver's route price before booking.</p>
+</form></div>
+</section>
+<section class="section results-section" id="resultsSection"><div class="section-title"><div><span class="eyebrow">YOUR AREA</span><h2>Drivers available for your route</h2></div><span id="resultCount" class="muted">Search to see drivers</span></div><div id="driverResults" class="driver-grid"><div class="empty-state"><div class="empty-icon">⌖</div><h3>Find your ride</h3><p>Enter your locations above to see online drivers with matching routes and upfront prices.</p></div></div></section>
+<section class="how-section"><div class="section-title"><div><span class="eyebrow">SIMPLE BY DESIGN</span><h2>How RideConnect works</h2></div></div><div class="steps-grid"><article><span>01</span><h3>Search your route</h3><p>Choose your country, city, pickup point and destination.</p></article><article><span>02</span><h3>Compare drivers</h3><p>See available drivers, their vehicle information and the price they set.</p></article><article><span>03</span><h3>Request your ride</h3><p>Send a booking request. The driver can accept or decline it.</p></article></div></section>
+<section class="driver-cta"><div><span class="eyebrow">DRIVE WITH US</span><h2>Know your routes. Set your price.</h2><p>Register your vehicle and licence details, add the routes you serve, and choose your own prices.</p></div><a id="rotatingRegisterBtnBottom" href="driver.html" class="btn btn-light">Register as a driver →</a></section>
+</main>
+<footer><a class="brand footer-brand" href="index.html"><span class="brand-mark">R</span><span>Ride<span class="brand-accent">Connect</span><small>Local rides. Global reach.</small></span></a><p>RideConnect is a ride-request directory prototype. Always confirm the driver, vehicle and fare before travelling.</p><div><a href="driver.html">Driver registration</a><a href="bookings.html">Bookings</a></div><small>© <span data-year></span> RideConnect</small></footer>
+<div id="toast" class="toast" role="status"></div><script>document.addEventListener("DOMContentLoaded",()=>{const links=[document.getElementById("rotatingRegisterBtn"),document.getElementById("rotatingRegisterBtnBottom")].filter(Boolean);let driver=true;const paint=()=>{links.forEach(a=>{a.textContent=driver?"Register as a driver →":"Register as a passenger →";a.href=driver?"driver.html":"login.html?register=passenger";});driver=!driver};paint();setInterval(paint,5000)});</script><script type="module" src="js/app.js?v=20261028-syntaxfix1"></script></body></html>
