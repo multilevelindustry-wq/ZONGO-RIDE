@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Journey safety checklist</title><desc id="desc">Original illustration for Zongo Ride about journey safety checklist.</desc>
+<rect width="1200" height="700" rx="32" fill="#f1f5f9"/>
+<circle cx="940" cy="130" r="78" fill="#0f172a" opacity=".14"/>
+<path d="M0 520 Q210 450 390 510 T780 500 T1200 470 V700 H0Z" fill="#0f172a" opacity=".13"/>
+<path d="M0 590 L1200 540 L1200 700 L0 700Z" fill="#cbd5e1"/>
+<path d="M0 650 L1200 600" stroke="#ffffff" stroke-width="12" stroke-dasharray="54 42"/>
+<rect x="120" y="150" width="270" height="330" rx="22" fill="#14b8a6" opacity=".15"/>
+<rect x="160" y="190" width="70" height="70" rx="8" fill="#14b8a6" opacity=".65"/>
+<rect x="270" y="190" width="70" height="70" rx="8" fill="#14b8a6" opacity=".65"/>
+<rect x="160" y="300" width="70" height="70" rx="8" fill="#14b8a6" opacity=".65"/>
+<rect x="270" y="300" width="70" height="70" rx="8" fill="#14b8a6" opacity=".65"/>
+<g transform="translate(420 350)">
+<path d="M30 130 L65 62 Q80 35 115 35 H300 Q330 35 350 70 L390 130Z" fill="#0f172a"/>
+<rect x="100" y="50" width="85" height="65" rx="12" fill="#dbeafe"/>
+<rect x="200" y="50" width="85" height="65" rx="12" fill="#dbeafe"/>
+<rect x="18" y="120" width="390" height="95" rx="26" fill="#0f172a"/>
+<rect x="45" y="145" width="58" height="24" rx="10" fill="#fde68a"/>
+<rect x="330" y="145" width="48" height="24" rx="10" fill="#fee2e2"/>
+<circle cx="105" cy="215" r="38" fill="#1e293b"/><circle cx="105" cy="215" r="17" fill="#e2e8f0"/>
+<circle cx="320" cy="215" r="38" fill="#1e293b"/><circle cx="320" cy="215" r="17" fill="#e2e8f0"/>
+</g>
+<g transform="translate(800 175)">
+<rect x="0" y="0" width="230" height="120" rx="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+<circle cx="45" cy="42" r="16" fill="#0f172a"/>
+<rect x="75" y="30" width="115" height="13" rx="6" fill="#94a3b8"/>
+<rect x="28" y="73" width="170" height="12" rx="6" fill="#e2e8f0"/>
+<rect x="28" y="94" width="125" height="10" rx="5" fill="#e2e8f0"/>
+</g>
+<text x="70" y="90" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0f172a">ZONGO RIDE</text>
+<text x="70" y="125" font-family="Arial, sans-serif" font-size="20" fill="#475569">Journey safety checklist</text>
+</svg>
