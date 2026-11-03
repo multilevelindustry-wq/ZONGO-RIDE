@@ -1,84 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://zongo.shop/</loc></url>
-  <url><loc>https://zongo.shop/articles/how-zongo-ride-helps-passengers-find-local-drivers.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/a-driver-s-guide-to-joining-zongo-ride.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-find-a-ride-in-your-city.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-drivers-can-add-routes-and-set-fair-prices.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/what-passengers-should-check-before-booking-a-ride.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-become-an-independent-ride-driver.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/why-local-ride-discovery-can-save-time.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/preparing-your-driver-profile-for-zongo-ride.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-plan-your-daily-commute-with-local-drivers.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/tips-for-drivers-to-build-passenger-trust.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-online-driver-availability-helps-passengers.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/documents-drivers-should-prepare-before-registration.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-compare-ride-routes-before-you-book.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/a-beginner-s-guide-to-using-zongo-ride.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-drivers-can-manage-multiple-routes.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-passengers-can-make-booking-requests-clearly.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/the-benefits-of-connecting-local-drivers-and-riders.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-get-ready-for-a-long-distance-ride.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/vehicle-readiness-tips-for-ride-drivers.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-choose-a-convenient-pickup-point.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-route-information-helps-passengers-decide.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/ride-booking-tips-for-students-and-workers.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-keep-your-driver-information-accurate.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/what-to-do-after-sending-a-ride-request.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-drivers-can-make-their-route-listings-clear.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/using-zongo-ride-for-city-to-city-travel-planning.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-prepare-for-your-first-ride-booking.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-drivers-can-improve-their-online-presence.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/simple-safety-habits-for-passengers-and-drivers.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-find-transport-options-in-a-new-neighbourhood.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/why-drivers-should-keep-route-prices-up-to-date.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-make-a-ride-search-more-useful.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-drivers-can-organise-their-working-day.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-families-can-plan-local-journeys.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-explain-your-destination-and-pickup-clearly.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/a-practical-checklist-for-new-zongo-ride-drivers.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-local-ride-platforms-can-support-communities.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-prepare-your-vehicle-for-passenger-trips.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-passengers-can-plan-around-busy-travel-times.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-update-your-ride-routes-when-plans-change.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-make-ride-booking-less-confusing.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/why-clear-communication-matters-for-every-ride.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-drivers-can-set-realistic-expectations.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-plan-a-return-journey-before-you-travel.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-zongo-ride-connects-transport-across-regions.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/a-passenger-s-checklist-before-meeting-a-driver.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-drivers-can-build-a-consistent-ride-routine.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-search-for-available-drivers-more-effectively.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/how-to-get-the-most-from-your-zongo-ride-account.HTML</loc></url>
-  <url><loc>https://zongo.shop/articles/your-next-journey-starts-with-zongo-ride.HTML</loc></url>
+
   <url>
-<loc>https://zongo.shop/</loc>
-<lastmod>2026-11-03T10:43:31+00:00</lastmod>
-<priority>1.0000</priority>
-</url>
-<url>
-<loc>https://zongo.shop/index.html</loc>
-<lastmod>2026-11-03T10:43:31+00:00</lastmod>
-<priority>0.8000</priority>
-</url>
-<url>
-<loc>https://zongo.shop/driver.html</loc>
-<lastmod>2026-11-03T10:43:31+00:00</lastmod>
-<priority>0.8000</priority>
-</url>
-<url>
-<loc>https://zongo.shop/bookings.html</loc>
-<lastmod>2026-11-03T10:43:31+00:00</lastmod>
-<priority>0.8000</priority>
-</url>
-<url>
-<loc>https://zongo.shop/login.html</loc>
-<lastmod>2026-11-03T10:43:31+00:00</lastmod>
-<priority>0.8000</priority>
-</url>
-<url>
-<loc>https://zongo.shop/blog/index.html</loc>
-<lastmod>2026-11-03T10:43:31+00:00</lastmod>
-<priority>0.8000</priority>
-</url>
+    <loc>https://zongo.shop/</loc>
+    <lastmod>2026-11-03T10:43:31+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/index.html</loc>
+    <lastmod>2026-11-03T10:43:31+00:00</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/driver.html</loc>
+    <lastmod>2026-11-03T10:43:31+00:00</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/bookings.html</loc>
+    <lastmod>2026-11-03T10:43:31+00:00</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/login.html</loc>
+    <lastmod>2026-11-03T10:43:31+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/blog/index.html</loc>
+    <lastmod>2026-11-03T10:43:31+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://zongo.shop/articles/how-zongo-ride-helps-passengers-find-local-drivers.HTML</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/a-driver-s-guide-to-joining-zongo-ride.HTML</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-find-a-ride-in-your-city.HTML</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-drivers-can-add-routes-and-set-fair-prices.HTML</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/what-passengers-should-check-before-booking-a-ride.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-become-an-independent-ride-driver.HTML</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/why-local-ride-discovery-can-save-time.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/preparing-your-driver-profile-for-zongo-ride.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-plan-your-daily-commute-with-local-drivers.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/tips-for-drivers-to-build-passenger-trust.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-online-driver-availability-helps-passengers.HTML</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/documents-drivers-should-prepare-before-registration.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-compare-ride-routes-before-you-book.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/a-beginner-s-guide-to-using-zongo-ride.HTML</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-drivers-can-manage-multiple-routes.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-passengers-can-make-booking-requests-clearly.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/the-benefits-of-connecting-local-drivers-and-riders.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-get-ready-for-a-long-distance-ride.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/vehicle-readiness-tips-for-ride-drivers.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-choose-a-convenient-pickup-point.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-route-information-helps-passengers-decide.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/ride-booking-tips-for-students-and-workers.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-keep-your-driver-information-accurate.HTML</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/what-to-do-after-sending-a-ride-request.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-drivers-can-make-their-route-listings-clear.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/using-zongo-ride-for-city-to-city-travel-planning.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-prepare-for-your-first-ride-booking.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-drivers-can-improve-their-online-presence.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/simple-safety-habits-for-passengers-and-drivers.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-find-transport-options-in-a-new-neighbourhood.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/why-drivers-should-keep-route-prices-up-to-date.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-make-a-ride-search-more-useful.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-drivers-can-organise-their-working-day.HTML</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-families-can-plan-local-journeys.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-explain-your-destination-and-pickup-clearly.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/a-practical-checklist-for-new-zongo-ride-drivers.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-local-ride-platforms-can-support-communities.HTML</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-prepare-your-vehicle-for-passenger-trips.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-passengers-can-plan-around-busy-travel-times.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-update-your-ride-routes-when-plans-change.HTML</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-make-ride-booking-less-confusing.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/why-clear-communication-matters-for-every-ride.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-drivers-can-set-realistic-expectations.HTML</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-plan-a-return-journey-before-you-travel.HTML</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-zongo-ride-connects-transport-across-regions.HTML</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/a-passenger-s-checklist-before-meeting-a-driver.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-drivers-can-build-a-consistent-ride-routine.HTML</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-search-for-available-drivers-more-effectively.HTML</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/how-to-get-the-most-from-your-zongo-ride-account.HTML</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zongo.shop/articles/your-next-journey-starts-with-zongo-ride.HTML</loc>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
