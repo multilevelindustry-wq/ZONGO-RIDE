@@ -80,4 +80,193 @@
 <a class="related-card" href="what-passengers-should-check-before-booking-a-ride.HTML">What Passengers Should Check Before Booking a Ride <span>Read guide →</span></a>
 <a class="related-card" href="how-online-driver-availability-helps-passengers.HTML">How Online Driver Availability Helps Passengers <span>Read guide →</span></a>
 <a class="related-card" href="the-benefits-of-connecting-local-drivers-and-riders.HTML">The Benefits of Connecting Local Drivers and Riders <span>Read guide →</span></a>
-</div></section></article></main><footer><p>© <span id="year">2026</span> Zongo Ride · Ride information for drivers and passengers.</p><a href="../index.html">Blog home</a></footer></body></html>
+</div></section></article></main><footer><p>© <span id="year">2026</span> Zongo Ride · Ride information for drivers and passengers.</p><a href="../index.html">Blog home</a></footer>
+
+<!-- ZONGO MAIN WEBSITE TRAFFIC POPUP --><style>
+#zongo-traffic-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.72);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
+  padding: 18px;
+  backdrop-filter: blur(5px);
+}
+
+#zongo-traffic-popup {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 15px 60px rgba(0,0,0,0.3);
+  animation: zongoPopupIn .4s ease;
+}
+
+@keyframes zongoPopupIn {
+  from {
+    opacity: 0;
+    transform: translateY(35px) scale(.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+  
+.zongo-popup-header {
+  background: linear-gradient(135deg,#102a43,#176b87);
+  color: white;
+  padding: 28px 20px;
+}
+
+.zongo-popup-logo {
+  font-size: 29px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.zongo-popup-header p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #e7f5ff;
+}
+
+.zongo-popup-content {
+  padding: 25px 22px 28px;
+}
+
+.zongo-popup-content h2 {
+  font-size: 23px;
+  color: #102a43;
+  margin: 0 0 12px;
+}
+
+.zongo-popup-content p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 22px;
+}
+
+.zongo-popup-button {
+  display: block;
+  background: #102a43;
+  color: white !important;
+  text-decoration: none !important;
+  padding: 15px;
+  border-radius: 9px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.zongo-popup-button:hover {
+  background: #176b87;
+  transform: translateY(-2px);
+}
+
+.zongo-popup-close {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255,255,255,.2);
+  color: white;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.zongo-popup-footer {
+  margin-top: 16px;
+  color: #888;
+  font-size: 12px;
+}
+
+@media(max-width:480px) {
+  #zongo-traffic-popup {
+    max-width: 350px;
+  }
+
+  .zongo-popup-content h2 {
+    font-size: 21px;
+  }
+}
+</style><div id="zongo-traffic-overlay">
+  <div id="zongo-traffic-popup"><button class="zongo-popup-close"
+  onclick="closeZongoPopup()">&times;</button>
+
+<div class="zongo-popup-header">
+  <div class="zongo-popup-logo">ZONGO RIDE</div>
+  <p>Your Ride. Your Journey. Your Opportunity.</p>
+</div><div class="zongo-popup-content">  <h2>🚗 Welcome to ZONGO RIDE!</h2>  <p>
+    <strong>Are you a driver?</strong> Turn your vehicle into an opportunity!
+    Connect with passengers looking for rides, showcase your routes,
+    set your own prices and get more opportunities to earn.
+  </p>  <p>
+    <strong>Looking for a ride?</strong> Find available drivers,
+    explore their routes and prices, and connect with drivers
+    ready to take you to your destination.
+  </p>  <a href="https://zongo.shop/"
+class="zongo-popup-button"
+target="_blank"
+rel="noopener">
+JOIN ZONGO RIDE TODAY →
+</a>
+
+  <div class="zongo-popup-footer">
+    Drivers, Get More Opportunities. Passengers, Find Your Ride.
+    <br>
+    Your Journey Starts with ZONGO!
+  </div></div>
+
+<script>
+(function() {
+
+  const overlay = document.getElementById(
+    "zongo-traffic-overlay"
+  );
+
+  let popupTimer;
+
+  function showZongoPopup() {
+    overlay.style.display = "flex";
+    document.body.style.overflow = "hidden";
+  }
+
+  window.closeZongoPopup = function() {
+    overlay.style.display = "none";
+    document.body.style.overflow = "";
+
+    clearTimeout(popupTimer);
+
+    popupTimer = setTimeout(function() {
+      showZongoPopup();
+    }, 120000);
+  };
+
+  // Show immediately when page opens
+  showZongoPopup();
+
+  // Close popup when clicking outside
+  overlay.addEventListener("click", function(event) {
+    if (event.target === overlay) {
+      closeZongoPopup();
+    }
+  });
+
+})();
+</script><!-- END ZONGO TRAFFIC POPUP -->
+
+</body></html>
