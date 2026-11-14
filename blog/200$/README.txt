@@ -1,17 +1,9 @@
-ZONGO RIDE — 100 DRIVER & PASSENGER SEO GUIDES
+ZONGO RIDE — 100 CITY-FOCUSED SEO ARTICLES ONLY
 
-Contents
-- 50 driver-focused HTML articles
-- 50 passenger-focused HTML articles
-- Updated index.html linking to all 100 articles
-- sitemap.xml containing the homepage and all 100 article URLs
-- robots.txt
-- Existing style.css and illustration assets retained
-- Zongo Ride SVG logo added and displayed on the homepage and every article
-- Google AdSense loader added to the homepage and every article:
-  ca-pub-9884706884825746
-- Popup remains enabled on homepage and every article; appears after 1.2 seconds and repeats every 3 minutes after dismissal.
+This clean package contains exactly 100 new city-focused HTML articles: 50 driver-intent pages and 50 passenger-intent pages across 50 cities. The previous 100 driver/passenger country and general-guidance articles have been removed from this package.
 
-Markets covered: Nigeria, India, South Africa, Ghana, Kenya, Uganda, Tanzania and Rwanda.
+Included: homepage updated to link only to these 100 city articles, sitemap.xml with homepage + 100 new city article URLs, robots.txt, original CSS, popup JavaScript, logo and image assets. The popup and AdSense loader remain on the homepage and all 100 new articles.
 
-Deployment note: upload the contents of this folder to the /ride-guides/ directory on zongo.shop so the canonical URLs and sitemap match. Confirm the actual public path before submitting the sitemap in Google Search Console. AdSense ad units are not included; this is the publisher loader supplied by the site owner. Ad display remains subject to AdSense approval and policy requirements.
+Upload the contents of this folder to /ride-guides/ on zongo.shop. Submit /ride-guides/sitemap.xml in Google Search Console.
+
+City selection is an editorial selection of major urban centres, not a verified ranking of live Zongo Ride request volumes. Check local licensing, insurance and transport rules before offering rides. Ad display is subject to AdSense approval and ad-unit configuration.
